@@ -29,3 +29,11 @@
 .nota__data {
   text-align: end;
 }
+
+.semNotas {
+  color: #033F63;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 50px;
+  text-decoration: underline;
+}

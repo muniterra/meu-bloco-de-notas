@@ -18,6 +18,7 @@ export class MinhasNotasComponent implements OnInit {
   ngOnInit(): void {
     this.storageService.pegarNotas().subscribe(resposta => {
       this.notas = resposta;
+      console.log(this.notas)
     })
   }
 
