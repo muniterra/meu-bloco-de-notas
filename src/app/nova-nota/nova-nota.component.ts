@@ -15,8 +15,13 @@ export class NovaNotaComponent {
 
   public enviarNota(): void {
     let nota = { titulo: this.titulo, texto: this.texto };
-    this.storageService.adicionaNota(nota).subscribe((resp) => {
-      this.router.navigateByUrl('minhas-notas');
-    });
+    this.storageService.adicionaNota(nota).subscribe(
+      (resp) => {
+        this.router.navigateByUrl('minhas-notas');
+      },
+      (error) => {
+        this.router.navigateByUrl('minhas-notas');
+      }
+    );
   }
 }
