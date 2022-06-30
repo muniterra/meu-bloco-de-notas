@@ -1,5 +1,7 @@
 # MeuBlocoDeNotas
 
+Obs.: As notas precisam de um servidor local rodando na porta 3000 para armazenar e resgatar os dados.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
 ## Development server
