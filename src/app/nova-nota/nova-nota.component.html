@@ -1,0 +1,29 @@
+<form class="formulario" (ngSubmit)="enviarNota()">
+  <h1 class="formulario__titulo">
+    Cadastre sua nota no
+    <span class="formulario__destaque">Bloquinho do Matheus</span>
+  </h1>
+
+  <div class="formulario__container">
+    <input
+      class="formulario__tituloInput"
+      id="titulo"
+      name="titulo"
+      [(ngModel)]="titulo"
+      placeholder="Qual o título da sua nota?"
+      type="text"
+    />
+  </div>
+
+  <div class="formulario__container">
+    <textarea
+      class="formulario__textoInput"
+      id="texto"
+      name="texto"
+      [(ngModel)]="texto"
+      placeholder="O que você deseja escrever?"
+    ></textarea>
+  </div>
+
+  <button class="formulario__btn" type="submit">Adicionar Nota</button>
+</form>

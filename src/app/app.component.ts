@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'meu-bloco-de-notas';
+  data = new Date();
+  money = 1000;
+
+  constructor() { }
 }

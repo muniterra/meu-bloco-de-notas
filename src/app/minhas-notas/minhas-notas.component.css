@@ -1,0 +1,31 @@
+.notas {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px 15px 15px;
+}
+
+.nota {
+  background-color: #7C9885;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #033F63;
+  color: #033F63;
+  margin: 0px 15px 15px 0px;
+  padding: 15px 15px 10px;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.nota__titulo {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.nota__texto {
+  color: black;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.nota__data {
+  text-align: end;
+}
